@@ -252,7 +252,7 @@ if uploaded_file is not None:
         # Save the DataFrame to CSV
         gsr_ppg_data.to_csv(file_path)
 
-        st.write(f"Your data has been saved as `{filename}` in the server's `{DATA_STORAGE_DIR}` directory.")
+        #st.write(f"Your data has been saved as `{filename}` in the server's `{DATA_STORAGE_DIR}` directory.")
 
     except Exception as e:
         st.error(f"An error occurred while processing the file: {e}")
